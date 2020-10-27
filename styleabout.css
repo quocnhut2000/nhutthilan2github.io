@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: font1;
+	src:url(OptimusPrincepsSemiBold.ttf);
+}
+@font-face{
+	font-family: font2;
+	src:url(Nomark.otf);
+}
+#wrapper{
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+.about{
+	width: 100%;
+	height: 600px;
+	background-image: url("Hinh/whales-iceland-0074.jpg");
+	background-size: cover;
+	box-sizing: border-box;
+ 	position: relative;
+}
+.menu{
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	width: 200px;
+	height: 35px;
+	margin-top: 30px;
+	-webkit-text-stroke: 0.9px #E9E9E9;;
+  	-webkit-text-fill-color: transparent;
+}
+.menu a{
+	color: white;
+	font-size: 25px;
+}
+.about h1{
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 100px;
+	letter-spacing: 8px;
+	font-size: 60px;
+	color: white;
+	-webkit-text-stroke: 0.9px #E9E9E9;;
+  	-webkit-text-fill-color: transparent;
+}
+.about1{
+	-webkit-animation: about1 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: about1 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes about1{
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+@keyframes about1{
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+.about2{
+	width: 100%;
+	height: 650px;
+	position: relative;
+	background: whitesmoke;
+	
+}
+.hinhcanhan{
+	width: 40%;
+	height: 555px;
+	background-image: url("Hinh/69648530_2562607427304492_5499673594956873728_o.jpg");
+	background-size: cover;
+	float: left;
+	position:absolute;
+	margin-left: 5%;
+	margin-top: 7%;
+}
+.intro{
+	width: 40%;
+	height: 470px;
+	float: right;
+	margin-left: 50%;
+	margin-top: 18%;
+	position: absolute;
+}
+.intro h1{
+	text-align:center;
+	margin-top: 40px;
+	font-family: font1;
+	letter-spacing: 3px;
+}
+
+.cent{
+	-webkit-animation: cent 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: cent 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes cent{
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+@keyframes cent{
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+.intro p{
+	font-size: 17px;
+	margin-top: 30px;
+	font-family: font2;
+}
+.work{
+	font-size: 30px;
+}
+.about3{
+	width: 100%;
+	height: 250px;
+	background-color: whitesmoke;
+	position: relative;
+}
+.hinh{
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 20px;
+	animation-name: hinh1;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function:linear;
+}
+@keyframes hinh1{
+	0%{transform: rotate(0)}
+	100%{transform: rotate(360deg)}
+}
+.about4{
+	width: 100%;
+	height: 650px;
+	background: whitesmoke;
+	position: relative;
+}
+.phantren{
+	width: 100%;
+	height: 180px;
+	background-color: black;
+	z-index: 1;
+}
+.about4 p{
+	text-align: center;
+	padding-top: 5%;
+	color: white;
+	font-size: 20px;
+	font-family: font1;
+}
+.box{
+	width: 30%;
+	height: 400px;
+	background-color: aqua;
+	float: left;
+	margin:20px;
+}
+.box1{
+	background-image: url("Hinh/MS-4348.jpg");
+	background-size: cover;
+}
+.box2{
+	background-image: url("Hinh/pexels-photo-4480673.jpeg");
+	background-size: cover;
+}
+.box3{
+	background-image: url("Hinh/pexels-innermost-limits-3894157.jpg");
+	background-size: cover;
+}
+.about5{
+	width: 100%;
+	height: 450px;
+	background: whitesmoke;
+	position: relative;	
+}
+.box4{
+	width: 30%;
+	height: 400px;
+	background-color: aqua;
+	float: left;
+	margin:20px;
+}
+.box5{
+	background-image: url("Hinh/pexels-photo-4555468.jpeg");
+	background-size: cover;
+}
+.box6{
+	background-image: url("Hinh/pexels-photo-3551230.jpeg");
+	background-size: cover;
+}
+.box7{
+	background-image: url("Hinh/pexels-photo-2004388.jpeg");
+	background-size: cover;
+}
+.about6{
+	width: 100%;
+	height: 150px;
+	background: whitesmoke;
+}
+.box8{
+	width: 30%;
+	height: 130px;
+	background-color: whitesmoke;
+	float: left;
+	margin: 20px;
+}
+.box9 p{
+	text-align: center;
+	padding-top: 5%;
+}
+.logo{
+	text-align: center;
+	padding-top: 15%;
+}
+.box10 p{
+	text-align: center;
+	font-size: 17px;
+	padding-top: 15%;
+}
+.box11 h4,p{
+	text-align: center;
+	font-size: 17px;
+}
+.box11 h4{
+	padding-top: 15%;;
+}

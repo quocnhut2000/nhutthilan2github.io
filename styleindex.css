@@ -1,0 +1,424 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: auto;
+	padding: auto;
+}
+@font-face{
+	font-family: font1;
+	src:url(OptimusPrincepsSemiBold.ttf);
+}
+@font-face{
+	font-family: font2;
+	src:url(Nomark.otf);
+}
+#wrapper{
+	max-width:1200px;
+	height: auto;
+}
+header{
+	width: 100%;
+	height: 120px;
+	background:#28D3AB;
+}
+.logo{
+	width: 30%;
+	height: 150px;
+	background: #000000;
+	float: left;
+}
+.logo h1{
+	text-align: center;
+	color: white;
+	margin-top: 10%;
+	
+}
+.menu{
+	width: 70%;
+	height: 150px;
+	background: #000000;
+	float: left;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+	
+}
+.menu ul li{
+	display: inline-block;
+	background-color: black;
+	width: 200px;
+	height: 35px;
+	margin-top: 5%;
+	font-size: 150%;
+	-webkit-text-stroke: 0.9px #E9E9E9;;
+  	-webkit-text-fill-color: transparent;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+.banner{
+	width: 100%;
+	height:700px;
+	background: #8C2666;
+	background-image: url("Hinh/pexels-emiliano-arano-1295138.jpg");
+	background-size: cover;
+	position: relative;
+}
+.banner h1{
+	position: absolute;
+	text-align: center;
+	margin-left: 36%;
+	margin-top: 15%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 200%;
+	letter-spacing: 6px;
+	font-family: font1;
+}
+.banner p{
+	position: absolute;
+	text-align: center;
+	font-size: 150%;
+	margin-top: 400px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: font2;
+}
+.banner button{
+	width: 180px;
+	color:black;
+	font-size: 20px;
+	padding: 12px 0;
+	background: white;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	transition: transform 0.5s;
+	position: absolute;
+	top:78%;
+	right:42%;
+}
+.banner button:hover{
+	transform: translateY(10px);
+}
+.banner2{
+	width: 100%;
+	height: 400px;
+	background-color:whitesmoke;
+}
+.hinh{
+	margin-top: 50px;
+	margin-left: 500px;
+	cursor: pointer;
+	transition: transform 0.5s;
+}
+.hinh:hover{
+	transform: translateY(10px);
+}
+.banner2 h1{
+	margin-top: 10px;
+	text-align: center; 
+	font-family: font1;
+}
+.banner2 p{
+	margin-top: 20px;
+	text-align: center;
+/*	background: #2A58AA;*/
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: font2;
+}
+.content{
+	width: 100%;
+	height: 630px;
+	background: whitesmoke;
+}
+.box{
+	width: 45%;
+	height: 500px;
+	background: #AECD4E;
+	float: left;
+	margin-left: 40px;
+	margin-top: 80px;
+	text-align: center;
+	transition: .3s ease transform;
+	position: relative;
+}
+.box1{
+	background-image: url("Hinh/pexels-fotografierende-4855615.jpg");
+	background-size: cover;
+	border-radius: 10px;
+    
+}
+.box1:hover{
+	transform: scale(1.1);
+}
+.text1{
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: white;
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.box1 h5{
+	font-size: 30px;
+	-webkit-text-stroke: 0.9px #E9E9E9;;
+  	-webkit-text-fill-color: transparent;
+}
+.box1 p{
+	margin-top: 50px;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	
+}
+.box2{
+	background-image: url("Hinh/pexels-suliman-sallehi-1576937.jpg");
+	background-size: cover;
+	border-radius: 10px;
+}
+.text2{
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: white;
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.box2 h5{
+	font-size: 30px;
+	-webkit-text-stroke: 0.9px #E9E9E9;;
+  	-webkit-text-fill-color: transparent;
+}
+.box2 p{
+	margin-top: 50px;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+.box2:hover{
+	transform: scale(1.1);
+}
+.libary{
+	width: 100%;
+	height: 620px;
+	background-color: whitesmoke;
+	position: relative;
+}
+.libary h1{
+	text-align:center;
+	padding-top: 20px;
+	font-family:font1;
+	opacity: 0.8;
+	
+}
+.pic{
+	width: 30%;
+	height: 400px;
+	float: left;
+	margin-left: 30px;
+	position: absolute;
+	top: 30px;
+}
+.pic h4{
+	color: white;
+	text-align: center;
+	margin-top: 200px;
+	font-size: 20px;
+	font-family: font2;
+}
+.pic1{
+	background-image: url("Hinh/1f5ed397524085.5ec7e86649418.jpg");
+	background-size: cover;
+}
+.pic2{
+	background-image: url("Hinh/MS-7-scaled.jpg");
+	background-size: cover;
+	right: 30px
+}
+.pic3{
+	background-image: url("Hinh/RS-0075.jpg");
+	background-size: cover;
+	left:390px;
+	top: 200px;
+}
+.libary2{
+	width: 100%;
+	height: 620px;
+	background: whitesmoke;
+	position: relative;
+}
+.libary2 h4{
+	color: white;
+}
+.pica{
+	width: 30%;
+	height: 400px;
+	background-color: antiquewhite;
+	float: left;
+	margin-left: 30px;
+	position: absolute;
+}
+.pica h4{
+	text-align: center;
+	margin-top: 200px;
+	font-size: 20px;
+	font-family: font2;
+}
+.pic6{
+	right: 30px;
+	top: 150px;
+	background-image: url("Hinh/MS-4348.jpg");
+	background-size: cover;
+}
+.pic5{
+	left: 390px;
+	background-image: url("Hinh/whales-iceland-0074.jpg");
+	background-size: cover;
+}
+.pic4{
+	top: 150px;
+	background-image: url("Hinh/Eisstandfinal-.jpg");
+	background-size: cover;
+}
+footer{
+	width: 100%;
+	height: 500px;
+	background: #BC5B30;
+	background-image:url("Hinh/pexels-bohemianheart-tanusree-697006.jpg");
+	background-size: cover;
+}
+.about h1{
+	padding-top: 50px;
+	margin-left: 250px;
+	font-size: 30px;
+	color: whitesmoke;
+	font-family: font1;
+}
+.textabout{
+	width: 70%;
+	height: 300px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 40px;
+	font-size: 18px;
+	color: white;
+	font-family: font2;
+}
+.textabout p2{
+	color: yellow;
+	
+}
+.me{
+	width: 100%;
+	height: 450px;
+	background-color: aqua;
+	position: relative;
+	background-image: url("Hinh/pexels-huy-phan-1422391.jpg");
+	background-size: cover;
+}
+.quocnhut{
+	position: absolute;
+	margin: 150px;
+	left: 50px;
+}
+.anhcanhan{
+	width: 20%;
+	height: 200px;
+	float: left;
+	background-image: url("Hinh/69648530_2562607427304492_5499673594956873728_o.jpg");
+	background-size: cover;
+	border-radius: 150px;
+	animation-name: anhcuanhut;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function:linear;
+}
+@keyframes anhcuanhut{
+	0%{transform: rotate(0)}
+	100%{transform: rotate(360deg)}
+}
+.gioithieu{
+	width: 80%;
+	height: auto;
+	float: right;
+	margin-top: 40px;
+	text-align: center;
+	font-size: 20px;
+	color: white
+}
+.icon{
+	font-size: 30px;
+	margin-top: 10px;
+	display: inherit block;
+}
+.contact{
+	width: 100%;
+	height: 300px;
+	background-color: antiquewhite;
+	background-image: url("Hinh/pexels-mauricio-artieda-2179721.jpg");
+	background-size: cover;
+}
+.contaceme{
+	text-align: center;
+	padding-top: 70px;
+}
+.khung{
+	border-style: solid;
+	font-size: 20px;
+	background-color: white;
+	margin-left: 300px;
+	margin-right: 300px;
+	border-width: 0px;
+	
+}
+.contaceme button{
+	border: 2px solid white;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-top: 20px;
+	background-color: transparent;
+}
+.end{
+	width: 100%;
+	height: 50px;
+	background-color: darkgrey;
+}
+.end p{
+	text-align: center;
+	color: black;
+	padding-top: 20px;
+}
+@media only screen 
+   and (max-width : 768px) {
+   /* Styles here */
+	   .logo {
+		   width: 100%;
+		   float: none;
+	   }
+	   .logo h1{
+		   padding-top: 40px;
+	   }
+	   .banner h1{
+		   padding-right: 180px;
+		   float: none;
+	   }
+	   .menu{
+		   width: 100%;
+		   float: none;
+	   }
+	   .content{
+		   height: auto;
+		   padding: 20px;
+	   }
+	   .box{
+		   width: 100%;
+		   float: none;
+		   margin: 10px;
+	   }
+}

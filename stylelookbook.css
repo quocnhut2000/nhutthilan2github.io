@@ -1,0 +1,391 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: font1;
+	src: url(OptimusPrincepsSemiBold.ttf);
+}
+@font-face{
+	font-family: font2;
+	src:url(Nomark.otf);
+}
+#wrapper{
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+.menu{
+	width: 100%;
+	height: 100px;
+	background-color:black;
+}
+.bar{
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+.bar ul{
+	list-style: none;
+	text-align: center;
+}
+.bar ul li{
+	display: inline-block;
+	width: 200px;
+	height: 35px;
+	margin-top: 30px;
+	-webkit-text-stroke: 0.9px #E9E9E9;;
+  	-webkit-text-fill-color: transparent;
+}
+.bar a{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+.lb1{
+	width: 100%;
+	height: 700px;
+	background-color:black;
+	position: relative;
+}
+.box1{
+	position: absolute;
+	width: 27%;
+	height: 500px;
+	background-image: url("Hinh/123.jpg");
+	background-size: cover;
+}
+.khungbox2{
+	position: absolute;
+	width: 22%;
+	height: 300px;
+/*	background: #825556;*/
+	right: 24%;
+	top: 12.5%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	
+}
+.box2{
+	position: absolute;
+	width: 20%;
+	height: 270px;
+	background-image: url("Hinh/pexels-eberhard-grossgasteiger-1699026.jpg");
+	background-size: cover;
+	right: 25%;
+	top:15%;	
+}
+.box3{
+	position: absolute;
+	width: 30%;
+	height: 400px;
+	background: #9F8C8C;
+	background-image: url("Hinh/pexels-francesco-ungaro-2992841.jpg");
+	background-size: cover;
+	right: 0%;
+	top: 40%;
+}
+.text1{
+	position: absolute;
+	color: white;
+	font-size: 400%;
+	left: 30%;
+	top: 70%;
+	font-family: font1;
+}
+.text2{
+	position: absolute;
+	right: 10%;
+	top: 10%;
+	-webkit-text-stroke: 0.9px #E9E9E9;;
+  	-webkit-text-fill-color: transparent;
+}
+.text3{
+	position: absolute;
+	color:white;
+	left: 30%;
+	top: 30%;
+	font-size: 150%;
+	transform: rotate(90deg);
+}
+.lb2{
+	width: 100%;
+	height: 1200px;
+	background: black;
+	position: relative;
+}
+.khungbox4{
+	position: absolute;
+	width: 30%;
+	height: 500px;
+/*	background: #837575;*/
+	left: 10%;
+	top: 3%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+}
+.box4{
+	position: absolute;
+	width: 30%;
+	height: 500px;
+	background: #553B3B;
+	background-image:url("Hinh/pexels-kaique-rocha-775201.jpg");
+	background-size: cover;
+	left: 0%;
+}
+.box4{
+	-webkit-animation: box4 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: box4 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes box4{
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+@keyframes box4{
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+.box5{
+	position: absolute;
+	width: 25%;
+	height: 400px;
+	background-image:url("Hinh/pexels-ricardo-esquivel-3041347.jpg");
+	background-size: cover;
+	right: 25%;
+	top: 30%;
+}
+.box6{
+	position: absolute;
+	width: 20%;
+	height: 300px;
+	background-image: url("Hinh/pexels-jesse-3604268.jpg");
+	background-size: cover;
+	right: 5%;
+	top:30%;
+}
+.box7{
+	position: absolute;
+	width: 30%;
+	height: 600px;
+	background-image: url("Hinh/pexels-anouar-olh-1722206.jpg");
+	background-size: cover;
+	background-color: aqua;
+	top: 50%;
+}
+.text4{
+	position: absolute;
+	font-size: 150%;
+	right: 20%;
+	top: 5%;
+	color:white;
+	font-family: font2;
+	
+}
+.text5{
+	position: absolute;
+	color:white;
+	right:7%;
+	top:59%;
+	font-size: 130%;
+	font-family: font2;
+}
+.text6{
+	position: absolute;
+	left: 15%;
+	transform: rotate(-90deg);
+	top: 70%;
+	font-size: 200%;
+	color:white;
+	font-family: font1;
+}
+.hinhxoay1{
+	position: absolute;
+	right: 20%;
+	bottom:5%;
+	animation-name: hinh1;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function:linear;
+}
+@keyframes hinh1{
+	0%{transform: rotate(0)}
+	100%{transform: rotate(360deg)}
+}
+.lb3{
+	width: 100%;
+	height: 700px;
+	background: #000000;
+	position: relative;
+}
+.khungbox8{
+	width: 35%;
+	height: 620px;
+	background: black;
+	right: 2%;
+	top:5%;
+	position: absolute;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+}
+.box8{
+	width: 100%;
+	height: 600px;
+	background-image: url("Hinh/pexels-sebastian-palomino-1853373.jpg");
+	background-size: cover;
+	position: absolute;
+	right: -2%;
+	top:10%;
+
+}
+.box8{
+	-webkit-animation: box8 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: box8 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes box8 {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+  }
+}
+@keyframes box8{
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-150px);
+            transform: translateX(-150px);
+  }
+}
+.text8{
+	color: white;
+	position: absolute;
+	font-family: font2;
+	transform: rotate(90deg);
+	left: 70%;
+	top: 50%;
+}
+.box9{
+	width: 20%;
+	height: 300px;
+	background-image: url("Hinh/pexels-ignacio-palés-2877375.jpg");
+	background-size: cover;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	
+}
+.box10{
+	width:20%;
+	height:300px;
+	background-image: url("Hinh/pexels-ignacio-palés-2877375 - Copy.jpg");
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+}
+.lb4{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background: #000000;
+}
+.box11{
+	width: 60%;
+	height: 400px;
+	position: absolute;
+	background-image: url("Hinh/pexels-mauricio-artieda-2179721.jpg");
+	background-size: cover;
+	left: 20%;
+	top: 10%;
+}
+.text7{
+	color: white;
+	position: absolute;
+	transform: rotate(-90deg);
+	left: 7%;
+	font-size: 200%;
+	top: 10%;
+	font-family: font1;
+}
+.box12{
+	width: 13%;
+	height: 50px;
+	position: absolute;
+	background: black;
+	right:20%;
+	top:80%;
+	
+}
+.box12 h1{
+	margin-top: 7%;
+	margin-left: 7%;
+	color: white;
+	font-family: font1;
+}
+.lb5{
+	width: 100%;
+	height: 700px;
+	position: relative;
+	background-color: black;
+}
+.khungbox13{
+	position: absolute;
+	width: 80%;
+	height: 300px;
+/*	background: aqua;*/
+	top:20%;
+	left: -2%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+}
+.box13{
+	width: 30%;
+	height: 600px;
+	background: white;
+	position: absolute;
+	background-image:url(Hinh/pexels-photo-2097103.jpg);
+	background-size: cover;
+	left: 10%;
+	z-index: 1
+}
+.box14{
+	width: 40%;
+	height: 400px;
+	background-image: url(Hinh/pexels-fotografierende-4855615.jpg);
+	background-size: cover;
+	position: absolute;
+	right: 0%;
+	top: 10%;
+	z-index: 1;
+}
+.text9{
+	position: absolute;
+	left: 45%;
+	top: 70%;
+	font-size: 120%;
+	font-family: font2;
+	color: white;
+}
